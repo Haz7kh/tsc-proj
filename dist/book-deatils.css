@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(34, 34, 34, 1);
+}
+
+#book-details-container {
+  text-align: center;
+  width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+#book-details-container hr {
+  margin-top: 20px; /* Adjust as needed */
+  border: 0;
+  height: 1px;
+  background: #4a4a4a; /* Adjust the color as needed */
+}
+
+#book-description {
+  text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #2e2e2e;
+  color: #e3e3e3;
+}
